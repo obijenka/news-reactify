@@ -7,7 +7,6 @@ export default function App() {
       <Header />
       <div className="container">
         <Main />
-        <p  style={{marginTop: "20px"}}>Привет, любимка! Люблю тебя</p>
       </div>
     </>
   );
