@@ -1,0 +1,35 @@
+/* styles.module.css для Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin: 20px 0;
+}
+
+.pageButton {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.pageButton:hover:not(.disabled) {
+    background: #f0f0f0;
+}
+
+.pageButton.active {
+    background: #999999;
+    color: white;
+}
+
+.pageButton.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.ellipsis {
+    padding: 8px 4px;
+}
